@@ -1,4 +1,3 @@
-
 import { Phone, Zap, Droplet, Thermometer } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
@@ -35,7 +34,7 @@ const Index = () => {
           </div>
           <div>
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/4f022d8e-de26-4f10-adf9-cd2956d0c915.png" 
+              src={`${import.meta.env.BASE_URL}lovable-uploads/4f022d8e-de26-4f10-adf9-cd2956d0c915.png`}
               alt="Travail de rénovation" 
               className="rounded-lg shadow-lg w-full h-auto"
             />

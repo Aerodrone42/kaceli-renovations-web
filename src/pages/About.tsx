@@ -13,7 +13,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/383fc5b5-b169-4f76-acd4-a4f4a222afc5.png" 
+              src={`${import.meta.env.BASE_URL}lovable-uploads/383fc5b5-b169-4f76-acd4-a4f4a222afc5.png`}
               alt="Fondateur de Kaceli Rénovation Conseil" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
