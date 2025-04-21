@@ -98,6 +98,11 @@ const Footer = () => {
               créé par Aerodrone Multiservices
             </a>
           </p>
+          <p className="text-sm">
+            <Link to="/mentions-legales" className="hover:underline">
+              Mentions légales
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
@@ -105,4 +110,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

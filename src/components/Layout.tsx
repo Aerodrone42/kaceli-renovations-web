@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import CallButtonFloating from './CallButtonFloating';
 import Seo from './Seo';
+import CookieConsent from './CookieConsent';
 
 const Layout = () => {
   return (
@@ -18,6 +19,7 @@ const Layout = () => {
       </main>
       <CallButtonFloating />
       <Footer />
+      <CookieConsent />
     </div>
   );
 };
