@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const Chaponost = () => {
   return (
     <>
-      <HeroSection 
-        title="Artisan plombier, électricien et chauffagiste à Chaponost" 
-        subtitle="Installation, dépannage et rénovation dans votre ville"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Chaponost | Kaceli Rénovation Conseil"
+        description="Kaceli Rénovation Conseil intervient à Chaponost pour tous travaux de plomberie, électricité et chauffage. Artisan local, devis gratuit, dépannage rapide."
       />
       
       <section className="container-section">

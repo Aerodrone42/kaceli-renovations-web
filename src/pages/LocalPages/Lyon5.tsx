@@ -1,12 +1,16 @@
-
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const Lyon5 = () => {
   return (
     <>
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Lyon 5e | Kaceli Rénovation Conseil"
+        description="Artisan local Lyon 5e pour vos installations, dépannages et rénovations en plomberie, électricité et chauffage. Devis gratuit. Kaceli Rénovation Conseil."
+      />
       <HeroSection 
         title="Plombier, électricien et chauffagiste à Lyon 5e" 
         subtitle="Services professionnels pour tous vos projets"

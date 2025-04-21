@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const Givors = () => {
   return (
     <>
-      <HeroSection 
-        title="Plombier, électricien et chauffagiste à Givors" 
-        subtitle="Services de qualité pour votre confort et votre sécurité"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Givors | Kaceli Rénovation Conseil"
+        description="Votre artisan à Givors pour l'installation, le dépannage et la rénovation en plomberie, chauffage et électricité. Kaceli Rénovation Conseil. Intervention rapide."
       />
       
       <section className="container-section">

@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const Oullins = () => {
   return (
     <>
-      <HeroSection 
-        title="Artisan plombier, électricien et chauffagiste à Oullins" 
-        subtitle="Services de qualité pour votre confort et votre sécurité"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Oullins | Kaceli Rénovation Conseil"
+        description="Votre artisan à Oullins : plomberie, électricité, chauffage. Installation, rénovation, dépannage rapide. Devis gratuit. Kaceli Rénovation Conseil."
       />
       
       <section className="container-section">

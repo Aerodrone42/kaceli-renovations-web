@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const Venissieux = () => {
   return (
     <>
-      <HeroSection 
-        title="Plombier, électricien et chauffagiste à Vénissieux" 
-        subtitle="Services professionnels de qualité pour tous vos besoins"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Vénissieux | Kaceli Rénovation Conseil"
+        description="Intervention à Vénissieux pour vos travaux de plomberie, installation électrique et chauffage. Artisan local, devis gratuit, dépannage rapide."
       />
       
       <section className="container-section">

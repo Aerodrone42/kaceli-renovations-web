@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const PierreBenite = () => {
   return (
     <>
-      <HeroSection 
-        title="Plombier, électricien et chauffagiste à Pierre-Bénite" 
-        subtitle="Services professionnels pour votre confort et votre sécurité"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Pierre-Bénite | Kaceli Rénovation Conseil"
+        description="Plombier, électricien et chauffagiste à Pierre-Bénite : installation, réparation, dépannage. Artisan local réactif – Kaceli Rénovation Conseil."
       />
       
       <section className="container-section">

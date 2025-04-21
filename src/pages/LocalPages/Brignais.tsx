@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const Brignais = () => {
   return (
     <>
-      <HeroSection 
-        title="Artisan plombier, électricien et chauffagiste à Brignais" 
-        subtitle="Services de qualité pour tous vos projets"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Brignais | Kaceli Rénovation Conseil"
+        description="Kaceli Rénovation Conseil : artisan local à Brignais. Installation, dépannage et rénovation en plomberie, électricité et chauffage. Devis gratuit. Intervention rapide à Brignais et environs."
       />
       
       <section className="container-section">

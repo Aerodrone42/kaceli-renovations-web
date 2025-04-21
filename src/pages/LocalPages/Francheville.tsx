@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const Francheville = () => {
   return (
     <>
-      <HeroSection 
-        title="Plombier, électricien et chauffagiste à Francheville" 
-        subtitle="Services professionnels pour votre confort et votre sécurité"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Francheville | Kaceli Rénovation Conseil"
+        description="Artisan qualifié à Francheville pour travaux de plomberie, chauffage et électricité. Intervention rapide Kaceli Rénovation Conseil. Devis gratuit."
       />
       
       <section className="container-section">

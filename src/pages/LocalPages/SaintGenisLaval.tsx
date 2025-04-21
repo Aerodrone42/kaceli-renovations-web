@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const SaintGenisLaval = () => {
   return (
     <>
-      <HeroSection 
-        title="Plombier, électricien et chauffagiste à Saint-Genis-Laval" 
-        subtitle="Services professionnels pour tous vos projets"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Saint-Genis-Laval | Kaceli Rénovation Conseil"
+        description="Travaux de plomberie, électricité et chauffage à Saint-Genis-Laval. Artisan local, intervention rapide, devis gratuit – Kaceli Rénovation Conseil."
       />
       
       <section className="container-section">

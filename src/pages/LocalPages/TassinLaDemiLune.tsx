@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
+import Seo from '@/components/Seo';
 
 const TassinLaDemiLune = () => {
   return (
     <>
-      <HeroSection 
-        title="Plombier, électricien et chauffagiste à Tassin-la-Demi-Lune" 
-        subtitle="Services d'artisan qualifié pour tous vos projets"
-        showCta={true}
+      <Seo 
+        title="Plombier, électricien et chauffagiste à Tassin-la-Demi-Lune | Kaceli Rénovation Conseil"
+        description="Artisan Tassin-la-Demi-Lune : installation, dépannage, rénovation en plomberie, électricité, chauffage. Devis gratuit – Kaceli Rénovation Conseil."
       />
       
       <section className="container-section">
