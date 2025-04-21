@@ -2,6 +2,7 @@
 import { Outlet } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import CallButtonFloating from './CallButtonFloating';
 
 const Layout = () => {
   return (
@@ -10,9 +11,11 @@ const Layout = () => {
       <main className="flex-grow">
         <Outlet />
       </main>
+      <CallButtonFloating />
       <Footer />
     </div>
   );
 };
 
 export default Layout;
+
