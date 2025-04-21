@@ -58,7 +58,7 @@ const Services = () => {
           <div>
             {/* Cinquième image modifiée */}
             <img 
-              src="/lovable-uploads/383fc5b5-b169-4f76-acd4-a4f4a222afc5.png" 
+              src="/lovable-uploads/photo-1518770660439-4636190af475.png" 
               alt="Dépannage électrique modifié" 
               className="rounded-lg shadow-md w-full h-auto"
             />
