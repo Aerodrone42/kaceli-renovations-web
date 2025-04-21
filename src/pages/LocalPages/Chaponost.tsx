@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
@@ -58,7 +59,7 @@ const Chaponost = () => {
           </div>
           <div>
             <img 
-              src={`${import.meta.env.BASE_URL}lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png`}
+              src="/kaceli-renovations-web/lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png"
               alt="Services d'électricité à Chaponost" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
@@ -68,7 +69,7 @@ const Chaponost = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
           <div className="order-2 md:order-1">
             <img 
-              src={`${import.meta.env.BASE_URL}lovable-uploads/3c400882-bf59-4125-a54d-795bebada849.png`}
+              src="/kaceli-renovations-web/lovable-uploads/3c400882-bf59-4125-a54d-795bebada849.png"
               alt="Services de plomberie à Chaponost" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
@@ -106,7 +107,7 @@ const Chaponost = () => {
           </div>
           <div>
             <img 
-              src={`${import.meta.env.BASE_URL}lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png`}
+              src="/kaceli-renovations-web/lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png"
               alt="Services de chauffage à Chaponost" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
