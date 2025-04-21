@@ -47,18 +47,19 @@ const Services = () => {
           </div>
           
           <div>
-            {/* Première image remplacée ici */}
+            {/* Première image remise ancienne */}
             <img 
               src="/lovable-uploads/72b256a3-3844-4e51-bf28-32244166ae1e.png" 
-              alt="Installation électrique, image modifiée" 
+              alt="Installation électrique" 
               className="rounded-lg shadow-md w-full h-auto"
             />
           </div>
           
           <div>
+            {/* Cinquième image modifiée */}
             <img 
-              src="/lovable-uploads/96831c7d-8e69-4c30-8e34-b3428e65c1c8.png" 
-              alt="Dépannage électrique" 
+              src="/lovable-uploads/383fc5b5-b169-4f76-acd4-a4f4a222afc5.png" 
+              alt="Dépannage électrique modifié" 
               className="rounded-lg shadow-md w-full h-auto"
             />
           </div>
