@@ -1,8 +1,8 @@
-
 import { Zap, Droplet, Thermometer, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import ServiceCard from '@/components/ServiceCard';
+import ElectricalInstallationImage from '@/components/ElectricalInstallationImage';
 
 const Services = () => {
   return (
@@ -48,11 +48,9 @@ const Services = () => {
           </div>
           
           <div>
-            {/* Première image remise ancienne */}
-            <img 
-              src="/kaceli-renovations-web/lovable-uploads/72b256a3-3844-4e51-bf28-32244166ae1e.png" 
-              alt="Installation électrique" 
-              className="rounded-lg shadow-md w-full h-auto"
+            <ElectricalInstallationImage 
+              src="/kaceli-renovations-web/lovable-uploads/4efe118f-a0a9-42b1-9057-1ce1768dd169.png"
+              alt="Installation électrique et mise aux normes" 
             />
           </div>
           
