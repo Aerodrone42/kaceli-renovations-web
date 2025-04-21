@@ -56,7 +56,7 @@ const Oullins = () => {
           </div>
           <div>
             <img 
-              src={`${import.meta.env.BASE_URL}lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png`}
+              src="/kaceli-renovations-web/lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png"
               alt="Services d'électricité à Oullins" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
@@ -66,7 +66,7 @@ const Oullins = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
           <div className="order-2 md:order-1">
             <img 
-              src={`${import.meta.env.BASE_URL}lovable-uploads/3312d870-d0cf-4de0-a82d-b5a8fb38a3e3.png`}
+              src="/kaceli-renovations-web/lovable-uploads/3312d870-d0cf-4de0-a82d-b5a8fb38a3e3.png"
               alt="Services de plomberie à Oullins" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
@@ -104,7 +104,7 @@ const Oullins = () => {
           </div>
           <div>
             <img 
-              src={`${import.meta.env.BASE_URL}lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png`}
+              src="/kaceli-renovations-web/lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png"
               alt="Services de chauffage à Oullins" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
