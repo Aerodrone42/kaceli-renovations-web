@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import LegalMentions from "./pages/LegalMentions";
 import { 
   Chaponost, 
   Brignais, 
@@ -39,6 +40,7 @@ const App = () => (
             <Route path="nos-services" element={<Services />} />
             <Route path="avis-clients" element={<Testimonials />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="mentions-legales" element={<LegalMentions />} />
             
             {/* Pages locales */}
             <Route path="chaponost" element={<Chaponost />} />
@@ -62,4 +64,3 @@ const App = () => (
 );
 
 export default App;
-
