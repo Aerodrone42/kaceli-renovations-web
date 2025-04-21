@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
