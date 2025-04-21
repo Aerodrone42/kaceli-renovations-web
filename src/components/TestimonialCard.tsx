@@ -9,14 +9,14 @@ interface TestimonialCardProps {
 
 const TestimonialCard = ({ name, location, testimonial, rating, date }: TestimonialCardProps) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md">
+    <div className="bg-white p-6 rounded-lg shadow-md hover-lift animate-fade-scale">
       <div className="flex items-center mb-4">
-        {/* Étoiles de notation */}
-        <div className="flex">
+        {/* Rating stars */}
+        <div className="flex animate-slide-in-right" style={{ animationDelay: '0.2s' }}>
           {[...Array(5)].map((_, i) => (
             <svg
               key={i}
-              className={`w-5 h-5 ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`}
+              className={`w-5 h-5 ${i < rating ? 'text-yellow-400' : 'text-gray-300'} transition-colors duration-300`}
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +25,10 @@ const TestimonialCard = ({ name, location, testimonial, rating, date }: Testimon
             </svg>
           ))}
         </div>
-        <span className="ml-2 text-sm text-gray-500">{date}</span>
+        <span className="ml-2 text-sm text-gray-500 animate-slide-in-right" style={{ animationDelay: '0.3s' }}>{date}</span>
       </div>
-      <p className="text-gray-700 mb-4">{testimonial}</p>
-      <div className="font-medium">
+      <p className="text-gray-700 mb-4 animate-slide-up" style={{ animationDelay: '0.4s' }}>{testimonial}</p>
+      <div className="font-medium animate-slide-up" style={{ animationDelay: '0.5s' }}>
         <p className="text-kaceli-blue">{name}</p>
         <p className="text-gray-500 text-sm">{location}</p>
       </div>

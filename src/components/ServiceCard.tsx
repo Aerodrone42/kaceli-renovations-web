@@ -11,11 +11,11 @@ interface ServiceCardProps {
 
 const ServiceCard = ({ title, description, icon, link }: ServiceCardProps) => {
   const content = (
-    <div className="service-card group">
-      <div className="service-icon text-kaceli-orange group-hover:text-kaceli-blue transition-colors">
+    <div className="service-card group hover-lift hover-glow animate-fade-scale">
+      <div className="service-icon text-kaceli-orange group-hover:text-kaceli-blue transition-colors duration-300">
         {icon}
       </div>
-      <h3 className="text-xl font-bold mb-3 group-hover:text-kaceli-orange transition-colors">{title}</h3>
+      <h3 className="text-xl font-bold mb-3 group-hover:text-kaceli-orange transition-colors duration-300">{title}</h3>
       <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: description }}></p>
     </div>
   );
