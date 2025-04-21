@@ -171,8 +171,9 @@ const Services = () => {
           </div>
           
           <div>
+            {/* Sixième image modifiée pour éviter doublon */}
             <img 
-              src="/lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png" 
+              src="/lovable-uploads/96831c7d-8e69-4c30-8e34-b3428e65c1c8.png" 
               alt="Entretien de chauffage" 
               className="rounded-lg shadow-md w-full h-auto"
             />
