@@ -49,7 +49,7 @@ const Services = () => {
           
           <div>
             <ElectricalInstallationImage 
-              src="/kaceli-renovations-web/lovable-uploads/4efe118f-a0a9-42b1-9057-1ce1768dd169.png"
+              src="/kaceli-renovations-web/lovable-uploads/bcd0b189-21c8-41e4-bf1b-6ad3f1392f99.png"
               alt="Installation électrique et mise aux normes" 
             />
           </div>
