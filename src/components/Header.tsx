@@ -17,7 +17,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/0d491039-d8a7-4f7f-9cb0-ba0b80d8ccf1.png" 
+              src="/kaceli-renovations-web/lovable-uploads/0d491039-d8a7-4f7f-9cb0-ba0b80d8ccf1.png" 
               alt="Kaceli Rénovation Conseil Logo" 
               className="h-16"
             />
