@@ -86,8 +86,18 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} Kaceli Rénovation Conseil. Tous droits réservés.</p>
+        <div className="mt-8 pt-8 border-t border-gray-700 text-center space-y-3">
+          <p>&copy; {new Date().getFullYear()} Kaceli Rénovation Conseil. Tous droits réservés. site crée par Aerodrone Multiservices</p>
+          <p>
+            <a 
+              href="https://www.site-internet-sans-abonnement.fr/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-kaceli-orange hover:underline"
+            >
+              https://www.site-internet-sans-abonnement.fr/
+            </a>
+          </p>
         </div>
       </div>
     </footer>
