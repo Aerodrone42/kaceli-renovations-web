@@ -11,7 +11,7 @@ const HeroSection = ({ title, subtitle, showCta = true }: HeroSectionProps) => {
   return (
     <section className="relative py-20 md:py-32 bg-kaceli-blue text-white overflow-hidden">
       {/* Overlay pattern */}
-      <div className="absolute inset-0 opacity-10 bg-[url('/lovable-uploads/3c400882-bf59-4125-a54d-795bebada849.png')] bg-cover bg-center"></div>
+      <div className="absolute inset-0 opacity-10 bg-[url('/kaceli-renovations-web/lovable-uploads/3c400882-bf59-4125-a54d-795bebada849.png')] bg-cover bg-center"></div>
       
       <div className="relative container mx-auto px-4 sm:px-6 z-10">
         <div className="max-w-3xl">

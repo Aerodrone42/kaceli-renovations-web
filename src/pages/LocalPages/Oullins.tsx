@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import { Zap, Droplet, Thermometer } from 'lucide-react';
@@ -14,13 +13,12 @@ const Oullins = () => {
       />
       
       <section className="container-section">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-lg mb-8">
+        <p className="text-lg mb-8">
             <strong>Kaceli Rénovation Conseil</strong> intervient à <strong>Oullins</strong> et dans les communes voisines comme La Mulatière, Pierre-Bénite, Saint-Genis-Laval, Sainte-Foy-lès-Lyon et Lyon 7e. 
             Nous proposons des services complets en <strong>plomberie</strong>, <strong>électricité</strong> et <strong>chauffage</strong> pour répondre à tous vos besoins.
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <ServiceCard 
               title="Électricité" 
               description="<strong>Installation électrique</strong> et <strong>dépannage électricité</strong> à <strong>Oullins</strong> par un <strong>électricien qualifié</strong>."
@@ -40,7 +38,6 @@ const Oullins = () => {
               link="/nos-services#chauffage"
             />
           </div>
-        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
@@ -59,7 +56,7 @@ const Oullins = () => {
           </div>
           <div>
             <img 
-              src="/lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png" 
+              src="/kaceli-renovations-web/lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png" 
               alt="Services d'électricité à Oullins" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
@@ -69,7 +66,7 @@ const Oullins = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
           <div className="order-2 md:order-1">
             <img 
-              src="/lovable-uploads/3312d870-d0cf-4de0-a82d-b5a8fb38a3e3.png" 
+              src="/kaceli-renovations-web/lovable-uploads/3312d870-d0cf-4de0-a82d-b5a8fb38a3e3.png" 
               alt="Services de plomberie à Oullins" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
@@ -107,7 +104,7 @@ const Oullins = () => {
           </div>
           <div>
             <img 
-              src="/lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png" 
+              src="/kaceli-renovations-web/lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png" 
               alt="Services de chauffage à Oullins" 
               className="rounded-lg shadow-lg w-full h-auto"
             />

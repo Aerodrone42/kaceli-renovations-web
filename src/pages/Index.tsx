@@ -35,7 +35,7 @@ const Index = () => {
           </div>
           <div>
             <img 
-              src="/lovable-uploads/4f022d8e-de26-4f10-adf9-cd2956d0c915.png" 
+              src="/kaceli-renovations-web/lovable-uploads/4f022d8e-de26-4f10-adf9-cd2956d0c915.png" 
               alt="Travail de rénovation" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
