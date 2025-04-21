@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: './', // Ajouté pour GitHub Pages
+  base: '/kaceli-renovations-web/', // Modifié pour GitHub Pages avec le nom du dépôt
   server: {
     host: "::",
     port: 8080,
