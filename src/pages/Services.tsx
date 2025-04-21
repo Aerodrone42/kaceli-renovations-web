@@ -57,10 +57,10 @@ const Services = () => {
           </div>
           
           <div>
-            {/* Cinquième image modifiée */}
+            {/* Remplacer l'image qui ne s'affiche pas */}
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/photo-1518770660439-4636190af475.png" 
-              alt="Dépannage électrique modifié" 
+              src="/kaceli-renovations-web/lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png" 
+              alt="Dépannage électrique" 
               className="rounded-lg shadow-md w-full h-auto"
             />
           </div>
