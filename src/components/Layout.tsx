@@ -12,6 +12,7 @@ const Layout = () => {
       <Seo 
         title="Plombier, électricien et chauffagiste à Chaponost | Kaceli Rénovation Conseil"
         description="Kaceli Rénovation Conseil, votre artisan à Chaponost et environs pour plomberie, électricité et chauffage. Installation, dépannage et rénovation."
+        image={`${window.location.origin}/kaceli-renovations-web/lovable-uploads/38e029c4-3962-4a8f-ade8-88e7066c5408.png`}
       />
       <Header />
       <main className="flex-grow">
