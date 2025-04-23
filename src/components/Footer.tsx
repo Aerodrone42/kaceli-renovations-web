@@ -98,22 +98,6 @@ const Footer = () => {
             </a>
           </p>
           
-          {/* New Guarantee Section */}
-          <div className="mt-4 text-sm space-y-2">
-            <div className="flex justify-center items-center space-x-4">
-              <img 
-                src="/kaceli-renovations-web/lovable-uploads/e733ee17-ebea-4670-aaba-36379c8469d8.png" 
-                alt="Garantie Décennale" 
-                className="h-16 w-16 object-contain"
-              />
-              <div>
-                <p>Garantie décennale - April - 68 Rue Victor Hugo, 69200 Vénissieux, France</p>
-                <p>Contrat : 25045996791 | Référence client : W4609213</p>
-                <p>SIRET : 51413734800033</p>
-              </div>
-            </div>
-          </div>
-
           <p className="text-sm">
             <Link to="/mentions-legales" className="hover:underline">
               Mentions légales
