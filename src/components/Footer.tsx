@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
@@ -103,9 +102,9 @@ const Footer = () => {
           <div className="mt-4 text-sm space-y-2">
             <div className="flex justify-center items-center space-x-4">
               <img 
-                src="/lovable-uploads/e733ee17-ebea-4670-aaba-36379c8469d8.png" 
+                src="/kaceli-renovations-web/lovable-uploads/e733ee17-ebea-4670-aaba-36379c8469d8.png" 
                 alt="Garantie Décennale" 
-                className="h-16 w-16"
+                className="h-16 w-16 object-contain"
               />
               <div>
                 <p>Garantie décennale - April - 68 Rue Victor Hugo, 69200 Vénissieux, France</p>
