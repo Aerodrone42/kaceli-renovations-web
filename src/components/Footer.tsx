@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
@@ -97,6 +98,12 @@ const Footer = () => {
               créé par Aerodrone Multiservices
             </a>
           </p>
+          
+          <div className="mt-4 text-sm space-y-2">
+            <p>Garantie décennale - April - 68 Rue Victor Hugo, 69200 Vénissieux, France</p>
+            <p>Contrat : 25045996791 | Référence client : W4609213</p>
+            <p>SIRET : 51413734800033</p>
+          </div>
           
           <p className="text-sm">
             <Link to="/mentions-legales" className="hover:underline">
