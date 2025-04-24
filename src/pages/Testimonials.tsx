@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
 import TestimonialCard from '@/components/TestimonialCard';
@@ -98,13 +99,21 @@ const Testimonials = () => {
             Nous mettons tout en œuvre pour vous offrir un service à la hauteur de vos attentes.
           </p>
           
-          <div className="mt-6">
-            <a href="tel:0649092517" className="btn-primary inline-block mx-2">
+          <div className="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a href="tel:0649092517" className="btn-primary inline-block">
               Appelez-nous au 06 49 09 25 17
             </a>
-            <Link to="/contact" className="btn-secondary inline-block mx-2">
+            <Link to="/contact" className="btn-secondary inline-block">
               Demander un devis gratuit
             </Link>
+            <a 
+              href="https://www.google.com/search?sa=X&sca_esv=c458d476deb8d65d&tbm=lcl&sxsrf=AHTn8zoJG59vEAPnEz5XfN5GYeoaWvKM3w:1745500865782&q=kaceli+renovation+conseil+Avis&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDS2MDU2NjYyMTS1MDYxNTE2stjAyPiKUS47MTk1J1OhKDUvvyyxJDk_TyE5P684NTNHwbEss3gRKwEFAJxtfWhdAAAA&rldimm=11385333241583454328&hl=fr-FR&ved=2ahUKEwjIq7244fCMAxXwVqQEHe0fMegQ9fQKegQIPxAF&biw=1707&bih=791&dpr=1.5#lkt=LocalPoiReviews" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-tertiary inline-block"
+            >
+              Donner un avis
+            </a>
           </div>
         </div>
       </section>
