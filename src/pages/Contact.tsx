@@ -1,4 +1,3 @@
-
 import HeroSection from '@/components/HeroSection';
 import ContactForm from '@/components/ContactForm';
 import { Phone, Mail, MapPin } from 'lucide-react';
@@ -71,7 +70,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="mt-4 pt-4 border-t border-gray-200">
-                <p className="font-medium text-kaceli-blue">
+                <p className="font-medium text-red-600 font-bold">
                   Service d'urgence disponible 7j/7 pour les dépannages
                 </p>
               </div>
