@@ -1,4 +1,3 @@
-
 import { Phone, Zap, Droplet, Thermometer } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
@@ -19,7 +18,7 @@ const Index = () => {
           <div>
             <h2>Kaceli Rénovation Conseil</h2>
             <p>
-              Basé à <strong>Chaponost</strong>, nous sommes spécialisés dans l'installation et le dépannage de systèmes électriques, 
+              Basé à <strong>Chaponost</strong>, fort d'une expérience de 10 ans dans la rénovation totale tout corps d'état, nous sommes spécialisés dans l'installation et le dépannage de systèmes électriques, 
               de plomberie et de chauffage pour les particuliers et professionnels dans tout le Rhône.
             </p>
             <p>
@@ -148,4 +147,3 @@ const Index = () => {
 };
 
 export default Index;
-
