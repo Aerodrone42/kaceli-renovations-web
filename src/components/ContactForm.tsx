@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const ContactForm = () => {
@@ -65,6 +64,7 @@ const ContactForm = () => {
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-kaceli-orange"
             >
               <option value="">Sélectionnez un service</option>
+              <option value="Urgence">Urgence (plomberie/électricité/gaz)</option>
               <option value="Électricité">Électricité</option>
               <option value="Plomberie">Plomberie</option>
               <option value="Chauffage">Chauffage</option>
@@ -73,6 +73,7 @@ const ContactForm = () => {
             </select>
           </div>
         </div>
+
         <div className="mt-6">
           <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
             Message*
@@ -100,4 +101,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-
