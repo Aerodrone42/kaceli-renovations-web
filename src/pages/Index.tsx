@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <>
       <HeroSection 
-        title="Votre artisan de confiance à Chaponost" 
+        title="Entreprise tous corps d'état à Chaponost" 
         subtitle="<strong>Installation et dépannage de systèmes électriques, plomberie et chauffage</strong><br/>Qualité, réactivité et professionnalisme au service de votre confort"
       />
       
