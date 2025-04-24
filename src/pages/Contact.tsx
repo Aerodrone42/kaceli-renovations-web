@@ -78,7 +78,7 @@ const Contact = () => {
             
             <h2>Zones d'intervention</h2>
             <p>
-              Nous intervenons principalement à <strong>Chaponost</strong> et dans un rayon de 30 km autour, 
+              Nous intervenons principalement à <strong>Chaponost</strong> et dans un rayon de 50 km autour, 
               couvrant ainsi une grande partie de la région lyonnaise.
             </p>
             <p>
