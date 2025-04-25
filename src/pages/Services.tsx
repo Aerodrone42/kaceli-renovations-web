@@ -1,3 +1,4 @@
+
 import { Zap, Droplet, Thermometer, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
@@ -49,7 +50,7 @@ const Services = () => {
           
           <div>
             <ElectricalInstallationImage 
-              src="/kaceli-renovations-web/lovable-uploads/bcd0b189-21c8-41e4-bf1b-6ad3f1392f99.png"
+              src="/lovable-uploads/bcd0b189-21c8-41e4-bf1b-6ad3f1392f99.png"
               alt="Installation électrique et mise aux normes" 
             />
           </div>
@@ -57,7 +58,7 @@ const Services = () => {
           <div>
             {/* Remplacer l'image qui ne s'affiche pas */}
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png" 
+              src="/lovable-uploads/b8163cde-402e-4249-a7d5-f65402322a62.png" 
               alt="Dépannage électrique" 
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -106,7 +107,7 @@ const Services = () => {
           
           <div>
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/3c400882-bf59-4125-a54d-795bebada849.png" 
+              src="/lovable-uploads/3c400882-bf59-4125-a54d-795bebada849.png" 
               alt="Rénovation salle de bain" 
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -114,7 +115,7 @@ const Services = () => {
           
           <div>
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/3312d870-d0cf-4de0-a82d-b5a8fb38a3e3.png" 
+              src="/lovable-uploads/3312d870-d0cf-4de0-a82d-b5a8fb38a3e3.png" 
               alt="Dépannage plomberie" 
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -163,7 +164,7 @@ const Services = () => {
           
           <div>
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png" 
+              src="/lovable-uploads/3657e19c-9901-4733-bf6e-8b0abf26f32a.png" 
               alt="Installation de chauffage" 
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -172,7 +173,7 @@ const Services = () => {
           <div>
             {/* Sixième image modifiée pour éviter doublon */}
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/96831c7d-8e69-4c30-8e34-b3428e65c1c8.png" 
+              src="/lovable-uploads/96831c7d-8e69-4c30-8e34-b3428e65c1c8.png" 
               alt="Entretien de chauffage" 
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -221,7 +222,7 @@ const Services = () => {
           
           <div>
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/3c400882-bf59-4125-a54d-795bebada849.png" 
+              src="/lovable-uploads/3c400882-bf59-4125-a54d-795bebada849.png" 
               alt="Rénovation salle de bain" 
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -269,3 +270,4 @@ const Services = () => {
 };
 
 export default Services;
+
