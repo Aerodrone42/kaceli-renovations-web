@@ -1,4 +1,3 @@
-
 import { Phone, Zap, Droplet, Thermometer } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
@@ -6,14 +5,6 @@ import ServiceCard from '@/components/ServiceCard';
 import ContactForm from '@/components/ContactForm';
 
 const Index = () => {
-  // Fonction pour obtenir le chemin correct des images
-  const getImagePath = (path) => {
-    // Si le chemin est déjà absolu, on le retourne tel quel
-    if (path.startsWith('http')) return path;
-    // Sinon on construit le chemin relatif à la racine du site
-    return path;
-  }
-
   return (
     <>
       <HeroSection 
@@ -43,7 +34,7 @@ const Index = () => {
           </div>
           <div>
             <img 
-              src="/kaceli-renovations-web/lovable-uploads/4f022d8e-de26-4f10-adf9-cd2956d0c915.png"
+              src="/lovable-uploads/4f022d8e-de26-4f10-adf9-cd2956d0c915.png"
               alt="Travail de rénovation" 
               className="rounded-lg shadow-lg w-full h-auto"
             />

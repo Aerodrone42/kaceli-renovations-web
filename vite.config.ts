@@ -18,5 +18,5 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
     host: "::"
   },
-  base: '/kaceli-renovations-web/', // Garde l'URL de base pour GitHub Pages
+  base: '/', // Changement de '/kaceli-renovations-web/' à '/' pour utiliser la racine du domaine
 }))
