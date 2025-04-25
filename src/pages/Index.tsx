@@ -1,3 +1,4 @@
+
 import { Phone, Zap, Droplet, Thermometer } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HeroSection from '@/components/HeroSection';
@@ -5,6 +6,14 @@ import ServiceCard from '@/components/ServiceCard';
 import ContactForm from '@/components/ContactForm';
 
 const Index = () => {
+  // Fonction pour obtenir le chemin correct des images
+  const getImagePath = (path) => {
+    // Si le chemin est déjà absolu, on le retourne tel quel
+    if (path.startsWith('http')) return path;
+    // Sinon on construit le chemin relatif à la racine du site
+    return path;
+  }
+
   return (
     <>
       <HeroSection 
