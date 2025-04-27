@@ -14,6 +14,7 @@ const Seo = ({ title, description, image }: SeoProps) => {
                        window.location.hostname === "kacelirenovationconseil.com";
   
   // Pour GitHub Pages, nous devons utiliser les URLs avec '#'
+  // La structure correcte est: hostname/#/route (pas hostname/route#/autre-route)
   const path = isGitHubPages ? `/#${location.pathname}` : location.pathname;
   const currentUrl = window.location.origin + path;
   

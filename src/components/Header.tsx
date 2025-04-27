@@ -1,10 +1,15 @@
 
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Phone } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  
+  // Détermine si nous sommes sur GitHub Pages
+  const isGitHubPages = window.location.hostname === "www.kacelirenovationconseil.com" || 
+                       window.location.hostname === "kacelirenovationconseil.com";
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
