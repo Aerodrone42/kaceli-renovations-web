@@ -18,5 +18,5 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
     host: "::"
   },
-  base: '/', // Changement de '/kaceli-renovations-web/' à '/' pour utiliser la racine du domaine
+  base: '/', // Utilisation de la racine du domaine pour les routes
 }))
