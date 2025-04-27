@@ -10,8 +10,14 @@ interface SeoProps {
 
 const Seo = ({ title, description, image }: SeoProps) => {
   const location = useLocation();
-  const currentUrl = window.location.origin + location.pathname;
-  const defaultImage = `${window.location.origin}/kaceli-renovations-web/lovable-uploads/38e029c4-3962-4a8f-ade8-88e7066c5408.png`;
+  const isGitHubPages = window.location.hostname === "www.kacelirenovationconseil.com" || 
+                       window.location.hostname === "kacelirenovationconseil.com";
+  
+  // Pour GitHub Pages, nous devons utiliser les URLs avec '#'
+  const path = isGitHubPages ? `/#${location.pathname}` : location.pathname;
+  const currentUrl = window.location.origin + path;
+  
+  const defaultImage = `${window.location.origin}/lovable-uploads/38e029c4-3962-4a8f-ade8-88e7066c5408.png`;
   const ogImage = image || defaultImage;
 
   useEffect(() => {
