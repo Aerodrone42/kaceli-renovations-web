@@ -3,8 +3,5 @@
 User-agent: *
 Allow: /
 
-# Block specific URLs that use hash routing
-Disallow: /*?/*
-
 # Sitemap location
 Sitemap: https://www.kacelirenovationconseil.com/sitemap.xml

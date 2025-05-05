@@ -10,13 +10,12 @@ interface SeoProps {
 
 const Seo = ({ title, description, image }: SeoProps) => {
   const location = useLocation();
-  const isGitHubPages = window.location.hostname === "www.kacelirenovationconseil.com" || 
-                       window.location.hostname === "kacelirenovationconseil.com";
   
-  // Pour GitHub Pages, nous devons utiliser les URLs avec '#'
-  // La structure correcte est: hostname/#/route (pas hostname/route#/autre-route)
-  const path = isGitHubPages ? `/#${location.pathname}` : location.pathname;
-  const currentUrl = window.location.origin + path;
+  // Sur GitHub Pages, nous devons utiliser un # dans l'URL
+  const currentPath = location.pathname;
+  const currentUrl = window.location.origin + (window.location.origin.includes('kacelirenovationconseil.com') 
+    ? '/#' + currentPath 
+    : currentPath);
   
   const defaultImage = `${window.location.origin}/lovable-uploads/38e029c4-3962-4a8f-ade8-88e7066c5408.png`;
   const ogImage = image || defaultImage;
@@ -34,7 +33,7 @@ const Seo = ({ title, description, image }: SeoProps) => {
     }
     metaDescription.setAttribute('content', description);
 
-    // Canonical URL
+    // Canonical URL - important pour l'indexation correcte
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {
       canonicalLink = document.createElement('link');
